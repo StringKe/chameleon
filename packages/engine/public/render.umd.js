@@ -2850,13 +2850,13 @@ Check the top-level render call using <` +
           throw o.message || r
             ? new Error(`${o.message || r}
  originData: ${JSON.stringify(t)}`)
-            : new Error(`${JSON.stringify(t)} 
+            : new Error(`${JSON.stringify(t)}
  data struct format is invalidate`);
         return (
           o.message || r
             ? console.warn(`${o.message || r}
  originData: ${JSON.stringify(t)}`)
-            : console.warn(`${JSON.stringify(t)} 
+            : console.warn(`${JSON.stringify(t)}
  data struct format is invalidate`),
           o
         );
